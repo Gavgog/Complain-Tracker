@@ -5,6 +5,7 @@ const express = require('express'),
 
 
 exports.list = function(req, res){
+    console.log("wowee1");
     User.getAll(function(result){
         res.json(result);
     });

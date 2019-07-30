@@ -1,7 +1,7 @@
 const db = require('../../config/db');
 
 exports.getAll = function(done){
-    db.getPool().query('SELECT * FROM User', function(err,rows){
+    db.getPool().query('SELECT * FROM Complaints', function(err,rows){
         if (err) return done({"ERROR 2":err});
         return done(rows);
     });

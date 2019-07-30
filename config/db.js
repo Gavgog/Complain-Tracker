@@ -1,4 +1,5 @@
-const mysql = require('promise-mysql');
+const mysqlp = require('promise-mysql');
+const mysql = require('mysql');
 
 let pool = null;
 

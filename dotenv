@@ -1,4 +1,4 @@
-MYSQL_HOST=remotemysql.com
-MYSQL_USER=nS8mncW6Lt
-MYSQL_PASSWORD=S8Z2gX0JXp
-MYSQL_DATABASE=nS8mncW6Lt
+MYSQL_HOST=databases-auth.000webhost.com
+MYSQL_USER=id107042_mcdadmin
+MYSQL_PASSWORD=id107042_mcdadmin1
+MYSQL_DATABASE=id107042_complaints
